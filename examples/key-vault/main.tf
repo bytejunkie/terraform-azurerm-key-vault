@@ -23,7 +23,7 @@ module "resourcegroup" {
   #   tags = var.tags
 }
 
-module "this" {
+module "key_vault" {
   source = "../.."
 
   name_strings        = ["byt", "kva", random_pet.pet.id]
